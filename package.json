@@ -1,7 +1,7 @@
 {
-  "name": "simple-boilerplate-node",
-  "version": "0.0.0",
-  "description": "",
+  "name": "nuclear-module-registry",
+  "version": "0.1.0",
+  "description": "A nuclear module to register your nuclear modules.",
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint .",
@@ -31,5 +31,22 @@
     "lodash.assign": "^4.0.7",
     "nuclear-module": "^0.5.0",
     "nuclear-record": "^0.1.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usirin/nuclear-module-registry.git"
+  },
+  "keywords": [
+    "nuclear-module",
+    "nuclear-js",
+    "module",
+    "registry"
+  ],
+  "bugs": {
+    "url": "https://github.com/usirin/nuclear-module-registry/issues"
+  },
+  "homepage": "https://github.com/usirin/nuclear-module-registry#readme"
 }
