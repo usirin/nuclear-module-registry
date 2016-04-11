@@ -1,1 +1,5 @@
-export default () => 'foo'
+import createRegistry from './createRegistry'
+
+module.exports = {
+  createRegistry
+}

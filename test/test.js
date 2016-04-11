@@ -1,9 +1,12 @@
 import expect from 'expect'
+import {Reactor} from 'nuclear-js'
 
-import mod from '../src'
+import NuclearModuleRegistry from '../src'
 
-describe('module', () => {
-  it('works', () => {
-    expect(mod()).toBe('foo')
+describe('NuclearModuleRegistry', () => {
+  it('should create a registry', () => {
+    const registry = NuclearModuleRegistry.createRegistry(new Reactor)
+
+    expect(registry).toExist()
   })
 })
